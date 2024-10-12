@@ -1,0 +1,80 @@
+.nav-top {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: white;
+    border-bottom: 1px solid #ececec;
+}
+
+.logo {
+    max-width: 105px;
+}
+
+.link-special {
+    color: #161616;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.link-special:hover {
+    color: #161616;
+    background: #eeee;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.icon-nav {
+    width: 45px;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon-nav:hover {
+    color: #161616;
+    text-decoration: none;
+    background: #eeee;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.mdi-web {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    border-radius: 30px;
+    border: 1px solid gray;
+    width: 80px;
+}
+
+.btn-login:hover {
+    color: gray;
+}
+
+nav#mobile {
+    height: 70px;
+}
+
+.nav-icon {
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav-icon:focus {
+    color: #858585;
+}
+
+.nav-icon.active {
+    color: #FF5A5F;
+    border-top: 3px solid #FF5A5F;
+}
