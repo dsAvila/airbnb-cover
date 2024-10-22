@@ -26,7 +26,7 @@ export default function Categories({ changeCat }) {
     }
 
     return (
-        <div style={{ marginTop: '80px', position: 'fixed', top: 0, zIndex: 999 }} className='bg-white pt-2 container-fluid d-flex justify-content-between align-items-center'>
+        <div style={{ marginTop: '80px', position: 'fixed', top: 0, zIndex: 998 }} className='bg-white pt-2 container-fluid d-flex justify-content-between align-items-center'>
             <div className='d-flex align-items-center container-airbnb row'>
                 <div className='col-sm-11'>
                     <Swiper
